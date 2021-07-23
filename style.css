@@ -3,6 +3,9 @@ body{
     margin: 0%;
     
 }
+.blue-color{
+    color: blue;
+}
 h1{
     color: black;
     font-size: 40px;
@@ -33,4 +36,33 @@ h1{
     background-image: url(img/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+}
+.experience-area{
+    background-image: url(img/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+.shadow{
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 10px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 40px olive;
+}
+
+#web-dev{
+    border-left: 7px solid;
+    border-image: linear-gradient(rgba(224, 115, 64, 0.842), rgb(220, 119, 71));
+    border-image-slice: 1;
+}
+#baby-dev{
+    border-left: 7px solid;
+    border-image: linear-gradient(rgba(75, 64, 224, 0.842), rgb(71, 210, 220));
+    border-image-slice: 1;
+}
+
+footer p{
+    text-align: center;
 }
